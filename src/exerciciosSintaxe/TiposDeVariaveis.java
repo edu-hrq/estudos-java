@@ -1,4 +1,4 @@
-package exerciciosDoCurso;
+package exerciciosSintaxe;
 
 // Crie um programa que declara e imprime variáveis de diferentes tipos (int, double, char, boolean, String).
 

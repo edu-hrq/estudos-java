@@ -1,4 +1,4 @@
-package exerciciosDoCurso;
+package exerciciosSintaxe;
 
 // Peça um número e imprima a tabuada de 1 a 10 com for.
 

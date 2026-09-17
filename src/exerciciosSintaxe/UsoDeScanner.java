@@ -1,4 +1,4 @@
-package exerciciosDoCurso;
+package exerciciosSintaxe;
 
 // Use Scanner para receber um nome e exibir "Olá, [nome]!"
 

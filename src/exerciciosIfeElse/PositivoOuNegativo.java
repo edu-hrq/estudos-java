@@ -1,4 +1,6 @@
-package exerciciosDoCursoIfeElse;
+package exerciciosIfeElse;
+
+// Verifique se o número pedido é positivo ou negativo.
 
 import java.util.Scanner;
 

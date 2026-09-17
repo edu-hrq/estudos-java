@@ -1,4 +1,4 @@
-package exerciciosDoCurso;
+package exerciciosSintaxe;
 
 // Exercício: Crie um programa que imprime "Hello, World!" no console.
 

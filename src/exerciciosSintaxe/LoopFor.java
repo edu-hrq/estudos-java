@@ -1,4 +1,4 @@
-package exerciciosDoCurso;
+package exerciciosSintaxe;
 
 // Use um For para imprimir de 1 a 10.
 

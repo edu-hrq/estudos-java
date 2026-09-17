@@ -1,4 +1,4 @@
-package exerciciosDoCurso;
+package exerciciosSintaxe;
 
 // Crie um programa que realiza soma, subtração, multiplicação e divisão entre dois números.
 
