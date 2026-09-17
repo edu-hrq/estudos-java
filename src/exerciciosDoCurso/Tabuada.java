@@ -9,7 +9,7 @@ public class Tabuada {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite um número: ");
+        System.out.print("Digite um número para ver a tabuada: ");
         int numero = sc.nextInt();
 
         for (int i = 1; i <= 10; i++) {
