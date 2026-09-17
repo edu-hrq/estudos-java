@@ -2,7 +2,7 @@ package exerciciosDoCurso;
 
 // Crie um programa que declara e imprime variáveis de diferentes tipos (int, double, char, boolean, String).
 
-public class tiposDeVariaveis {
+public class TiposDeVariaveis {
     public static void main(String[] args) {
 
         String nome = "José";
