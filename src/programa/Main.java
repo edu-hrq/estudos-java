@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+package programa;
 
 public class Main {
+    public static void main(String[] args) {
+    }
 }
