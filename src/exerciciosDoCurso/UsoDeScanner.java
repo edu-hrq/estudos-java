@@ -12,5 +12,7 @@ public class UsoDeScanner {
         String nome = sc.nextLine();
 
         System.out.println("Olá, " + nome + "!");
+
+        sc.close();
     }
 }
