@@ -19,5 +19,8 @@ public class CalculosSimples {
         System.out.println("A subtração desses números é de: " + (numero1 - numero2));
         System.out.println("A multiplicação desses números é de: " + (numero1 * numero2));
         System.out.println("A divisão desses números é de: " + (numero1 / numero2));
+
+        sc.close();
+
     }
 }

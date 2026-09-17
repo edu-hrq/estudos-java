@@ -19,5 +19,8 @@ public class PositivoOuNegativo {
        } else {
            System.out.println("O número digitado é zero.");
        }
+
+       sc.close();
+
     }
 }

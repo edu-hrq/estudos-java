@@ -16,5 +16,8 @@ public class ParOuImpar {
         } else {
             System.out.println("Esse número é ímpar");
         }
+
+        sc.close();
+
     }
 }
