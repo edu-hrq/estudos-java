@@ -1,10 +1,11 @@
 package programa;
 
 import entidade.Carro; // importação da classe Carro, que está localizada no package entidade
+import entidade.FuncionarioEmpresa;
 
 public class Main {
     public static void main(String[] args) {
-        Carro bmw = new Carro(); // Com esse comando, estou a instanciar um novo veículo, com todas as características da classe Carro.
+/*        Carro bmw = new Carro(); // Com esse comando, estou a instanciar um novo veículo, com todas as características da classe Carro.
         Carro corsa = new Carro(); // Outro objeto, usa os mesmos atributos, mas recebe valores diferentes.
 
         bmw.cor = "Preto";
@@ -20,6 +21,10 @@ public class Main {
         corsa.numeroPortas = 4;
 
         System.out.println(bmw.modelo); // mostrando valor do atributo modelo da classe
-        corsa.ligar(); // uso da ação da classe.
+        corsa.ligar(); // uso da ação da classe.*/
+
+        FuncionarioEmpresa eduardo = new FuncionarioEmpresa();
+        double salarioLiquido = eduardo.SalarioFinal(80);
+        System.out.printf("Salario Liquido: R$ %,.2f", salarioLiquido);
     }
 }
