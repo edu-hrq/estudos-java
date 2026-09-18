@@ -14,7 +14,7 @@ public class CalculoDeHoras {
         System.out.print("Digite o número de Identificação do Usuário: ");
         int numeroFuncionario = sc.nextInt();
         System.out.print("Qual a quantidade de horas totais trabalhadas: ");
-        int horasTrabalhadas = sc.nextInt();
+        double horasTrabalhadas = sc.nextInt();
         System.out.printf("Digite o valor da hora do funcionário %d: ", numeroFuncionario);
         double valorHora = sc.nextDouble();
 
