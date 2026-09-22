@@ -1,4 +1,5 @@
 package programa;
+import entidade.Usuario;
 
 import entidade.Carro; // importação da classe Carro, que está localizada no package entidade
 import entidade.FuncionarioEmpresa;
@@ -23,8 +24,11 @@ public class Main {
         System.out.println(bmw.modelo); // mostrando valor do atributo modelo da classe
         corsa.ligar(); // uso da ação da classe.*/
 
-        FuncionarioEmpresa eduardo = new FuncionarioEmpresa();
+/*        FuncionarioEmpresa eduardo = new FuncionarioEmpresa();
         double salarioLiquido = eduardo.SalarioFinal(80);
-        System.out.printf("Salario Liquido: R$ %,.2f", salarioLiquido);
+        System.out.printf("Salario Liquido: R$ %,.2f", salarioLiquido);*/
+
+        Usuario usuario = new Usuario("eduardo@email.com", "senha123");
+
     }
 }
