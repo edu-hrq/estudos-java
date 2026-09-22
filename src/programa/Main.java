@@ -28,8 +28,8 @@ public class Main {
         double salarioLiquido = eduardo.SalarioFinal(80);
         System.out.printf("Salario Liquido: R$ %,.2f", salarioLiquido);*/
 
-        Usuario usuario = new Usuario("eduardo@email.com", "senha123");
-        Usuario usuario2 = new Usuario("81912345678");
+        Usuario usuario = new Usuario();
+        usuario.login("12345678", "123");
 
     }
 }
