@@ -5,14 +5,16 @@ public class Usuario {
     public String email;
     public String senha;
 
+    //Assinatura de um construtor: nome + parametro e tipo
     public Usuario(String email, String senha) {
 
-        System.out.println("Construtor executado.");
+        System.out.println("AUTENTICAÇÃO POR EMAIL E SENHA");
 
-        this.email = email; // o this é o atributo, o email sem nada é o parâmetro dentro de Usuario().
-        this.senha = senha;
+    }
 
-        System.out.printf("E-mail: %s\n", email);
-        System.out.printf("Senha: %s", senha);
+    public Usuario(String telefone) {
+
+        System.out.println("AUTENTICAÇÃO POR TELEFONE.");
+
     }
 }
