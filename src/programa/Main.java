@@ -1,4 +1,5 @@
 package programa;
+import entidade.Cachorro;
 import entidade.Usuario;
 
 import entidade.Carro; // importação da classe Carro, que está localizada no package entidade
@@ -28,8 +29,15 @@ public class Main {
         double salarioLiquido = eduardo.SalarioFinal(80);
         System.out.printf("Salario Liquido: R$ %,.2f", salarioLiquido);*/
 
-        Usuario usuario = new Usuario();
-        usuario.login("12345678", "123");
+/*        Usuario usuario = new Usuario();
+        usuario.login("12345678", "123");*/
+
+        Cachorro cachorro = new Cachorro();
+        cachorro.cor = "Preto";
+        cachorro.tamanho = 100;
+        cachorro.peso = 8.5;
+        cachorro.correr();
+        cachorro.dormir();
 
     }
 }
