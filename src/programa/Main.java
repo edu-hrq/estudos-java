@@ -1,9 +1,5 @@
 package programa;
-import entidade.Cachorro;
-import entidade.Usuario;
-
-import entidade.Carro; // importação da classe Carro, que está localizada no package entidade
-import entidade.FuncionarioEmpresa;
+import entidade.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,6 +34,17 @@ public class Main {
         cachorro.peso = 8.5;
         cachorro.correr();
         cachorro.dormir();
+        cachorro.latir();
+
+        System.out.println("-----------");
+
+        Passaro passaro = new  Passaro();
+        passaro.cor = "Azul";
+        passaro.tamanho = 18;
+        passaro.peso = 1.5;
+        passaro.correr();
+        passaro.dormir();
+        passaro.voar();
 
     }
 }
