@@ -4,8 +4,8 @@ package entidade;
 //Crie uma classe Retângulo que calcule Área e Perímetro
 
 public class Retangulo {
-    public double altura;
-    public double largura;
+    private double altura;
+    private double largura;
 
     public Retangulo(double altura, double largura) {
         this.altura = altura;
@@ -25,7 +25,7 @@ public class Retangulo {
     }
 
     public double calcularPerimetro() {
-        return (altura * largura) * 2;
+        return (altura + largura) * 2;
     }
 
 }
