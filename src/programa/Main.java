@@ -1,20 +1,18 @@
 package programa;
 
+import entidade.Aluno;
 import entidade.Circulo;
 import entidade.Retangulo;
 
 public class Main {
     public static void main(String[] args) {
+        Aluno eduardo = new Aluno(0, "Eduardo", "ADS");
 
-        Retangulo retangulo = new Retangulo(10, 10);
+        eduardo.atualizarNotaAV1(10);
+        eduardo.atualizarNotaAV2(8);
+        eduardo.atualizarNotaAV3(9);
+        eduardo.calcularMedia();
 
-        System.out.printf("A área do retângulo é de: %.2f\n", retangulo.calcularArea());
-        System.out.printf("O perímetro do retângulo é de: %.2f\n", retangulo.calcularPerimetro());
-
-
-        Circulo circulo = new Circulo(5);
-
-        System.out.printf("A área do círculo é de: %.2f\n", circulo.calcularArea());
-        System.out.printf("O círculo cabe no retângulo? %b", circulo.cabeEm(retangulo));
+        System.out.printf("O aluno %s do curso %s está aprovado? %b", eduardo.getNome(), eduardo.getCurso(), eduardo.estaAprovado());
     }
 }
