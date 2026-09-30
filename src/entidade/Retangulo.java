@@ -7,11 +7,24 @@ public class Retangulo {
     public double altura;
     public double largura;
 
-    public double calcularArea(double altura, double largura) {
+    public Retangulo(double altura, double largura) {
+        this.altura = altura;
+        this.largura = largura;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public double getLargura() {
+        return largura;
+    }
+
+    public double calcularArea() {
         return altura * largura;
     }
 
-    public double calcularPerimetro(double altura, double largura) {
+    public double calcularPerimetro() {
         return (altura * largura) * 2;
     }
 
