@@ -36,7 +36,7 @@ public class Funcionario {
     }
 
     public double aumentarSalario(double porcentagemDeAumento) {
-        if (porcentagem > 50) {
+        if (porcentagemDeAumento > 50) {
             throw new IllegalArgumentException("Porcentagem de Aumento não deve ser maior que 50%");
         }
         double valorAAdicionar = porcentagemDeAumento / 100;
