@@ -1,5 +1,11 @@
 package entidade;
 
+/* EXERCÍCIO PROPOSTO: Crie uma classe Cronometro com o atributo totalSegundos. Implemente:
+- adicionar(int segundos), que soma tempo
+- zerar()
+- horas(), minutos() e segundos(), que retornam cada parte separadamente
+- formatar(), que retorna o tempo no formato horas dois-pontos minutos dois-pontos segundos, sempre com dois dígitos */
+
 public class Cronometro {
     private int totalSegundos;
 

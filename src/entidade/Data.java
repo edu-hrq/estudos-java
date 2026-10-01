@@ -1,5 +1,13 @@
 package entidade;
 
+/* EXERCÍCIO PROPOSTO: Crie uma classe Data com os atributos: dia, mes e ano. Implemente:
+
+- Um construtor que valide a data recebida, rejeitando dia 32, mês 13 e 30 de fevereiro
+- ehBissexto(), que retorna se o ano é bissexto
+- diasNoMes(), que retorna quantos dias tem o mês
+- formatar(), que retorna a data no formato dia barra mês barra ano
+- ehAnterior(Data outra), que compara duas datas */
+
 public class Data {
     private int dia;
     private int mes;
