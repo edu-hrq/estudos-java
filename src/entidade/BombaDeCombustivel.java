@@ -5,15 +5,18 @@ public class BombaDeCombustivel {
     private double quantidadeCombustivel;
     private String tipoCombustivel;
 
-    public void abastecerCarro(double valor) { // sofrerá alterações
+    public void abastecerCarro(double valor) {
+        double litros = valor / valorLitro;
+        System.out.println("Quantidade de litros abastecida: " + litros);
+        this.quantidadeCombustivel -= litros;
     }
 
-    public double alterarValor(double valorLitro) {
+    public void alterarValor(double valorLitro) {
         this.valorLitro = valorLitro;
     }
 
-    public double abastecerBomba(double quantidade) {
-        this.quantidadeCombustivel +=  quantidade;
+    public void abastecerBomba(double quantidade) {
+        this.quantidadeCombustivel += quantidade;
     }
 
     public double getQuantidadeCombustivel() {
