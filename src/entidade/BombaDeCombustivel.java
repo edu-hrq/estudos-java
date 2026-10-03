@@ -7,8 +7,12 @@ public class BombaDeCombustivel {
 
     public void abastecerCarro(double valor) {
         double litros = valor / valorLitro;
-        System.out.println("Quantidade de litros abastecida: " + litros);
-        this.quantidadeCombustivel -= litros;
+        if (litros > quantidadeCombustivel) {
+            System.out.println("Abastecimento indisponível: Quantidade de combustível na Bomba insuficiente.");
+        } else {
+            System.out.println("Quantidade de litros abastecida: " + litros + "L.");
+            this.quantidadeCombustivel -= litros;
+        }
     }
 
     public void alterarValor(double valorLitro) {
