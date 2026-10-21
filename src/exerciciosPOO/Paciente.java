@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 // EXERCÍCIO PROPOSTO: Crie uma classe chamada Paciente, com os atributos nome, peso e altura.
 

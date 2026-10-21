@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie a classe BombaCombustivel que representa uma bomba de combustível, com os seguintes atributos privados:
 valorLitro, quantidadeCombustivel, tipoCombustivel. A classe também deve possuir os seguintes métodos:

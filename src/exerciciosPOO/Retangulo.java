@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 // EXERCÍCIO PROPOSTO:
 //Crie uma classe Retângulo que calcule Área e Perímetro

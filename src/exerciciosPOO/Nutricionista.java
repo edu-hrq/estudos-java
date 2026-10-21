@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 // EXERCÍCIO PROPOSTO: Crie uma classe chamada Nutricionista, que será responsável por calcular o IMC do paciente.
 // Implemente um metodo calcularIMC, que receberá um objeto do tipo Paciente e retornará o valor do IMC.

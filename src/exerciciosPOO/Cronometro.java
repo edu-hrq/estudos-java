@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie uma classe Cronometro com o atributo totalSegundos. Implemente:
 - adicionar(int segundos), que soma tempo

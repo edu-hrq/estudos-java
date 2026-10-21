@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie uma classe chamada Funcionario que tenha os atributos privados nome, salario e cargo.
 

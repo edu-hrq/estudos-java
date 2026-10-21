@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 public class Termostato {
     private double temperaturaAtual;

@@ -1,8 +1,6 @@
 package programa;
 
-import entidade.Aluno;
-import entidade.Circulo;
-import entidade.Retangulo;
+import exerciciosPOO.Aluno;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package estudoDeHeranca;
+package exerciciosHerancaPOO;
 
 public class PessoaJuridica extends Pessoa {
     private String cnpj;

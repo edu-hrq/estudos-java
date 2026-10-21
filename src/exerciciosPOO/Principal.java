@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 // Crie uma classe Principal para criar um objeto Paciente e um objeto Nutricionista para calcular o IMC do paciente.
 

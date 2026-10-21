@@ -1,4 +1,4 @@
-package estudoDeHeranca;
+package exerciciosHerancaPOO;
 
 public class Pessoa {
     protected String nome;

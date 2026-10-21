@@ -1,4 +1,4 @@
-package estudoDeHeranca;
+package exerciciosHerancaPOO;
 
 public class PessoaFisica extends Pessoa {
     private String cpf;

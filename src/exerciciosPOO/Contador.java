@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie uma classe Contador que encapsule um valor usado para contagem de itens. A classe deve oferecer os métodos:
 - zerar(), que retorna o contador a zero

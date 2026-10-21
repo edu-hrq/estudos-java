@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie uma classe chamada Pessoa que tenha os atributos privados nome, sobrenome e idade.
 

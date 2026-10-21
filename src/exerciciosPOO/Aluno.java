@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO:
 Desenvolva uma classe Aluno com os atributos privados matricula, nome, curso, notaAV1, notaAV2 e notaAV3.

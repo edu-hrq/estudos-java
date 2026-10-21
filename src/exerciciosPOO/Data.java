@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie uma classe Data com os atributos: dia, mes e ano. Implemente:
 

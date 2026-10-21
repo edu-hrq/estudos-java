@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie uma classe Usuario com os atributos login e senha. O atributo senha deve ser privado e não deve ter getter.
 - definirSenha(String nova) só aceita senhas com pelo menos 8 caracteres

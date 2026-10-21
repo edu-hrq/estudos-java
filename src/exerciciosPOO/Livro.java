@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 /* EXERCÍCIO PROPOSTO: Crie uma classe chamada Livro que tenha os atributos titulo, quantidadePaginas e autor, do tipo Pessoa.
 Os atributos devem ser privados.

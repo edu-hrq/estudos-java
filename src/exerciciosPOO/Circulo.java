@@ -1,4 +1,4 @@
-package entidade;
+package exerciciosPOO;
 
 // EXERCÍCIO PROPOSTO:
 //Crie uma Classe Círculo que calcule Área, Diâmetro, Circunferência e que verifica se Cabe em Retângulo.
