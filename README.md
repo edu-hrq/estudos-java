@@ -34,3 +34,4 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-origina
 - Atributos e Encapsulamento
 - Contrutores
 - Getters e Setters
+- Herança e Polimorfismo
