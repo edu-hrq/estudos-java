@@ -4,12 +4,16 @@ package exerciciosPOO;
 
 public class Principal {
     public static void main(String[] args) {
-        Paciente paciente = new Paciente();
-        Nutricionista nutricionista = new Nutricionista();
 
-        paciente.setPeso(120);
-        paciente.setAltura(1.90);
+        Conta[] contas = new Conta[3];
 
-        System.out.printf("%.2f", nutricionista.calcularIMC(paciente));
+        contas[0] = new ContaEspecial("Eduardo", 111, 1900, 500);
+        contas[1] = new ContaEstudante("Kethly", 292, 2400, 2400);
+
+        contas[0].depositar(500);
+        contas[1].depositar(500);
+
+        contas[0].sacar(600);
+        contas[1].sacar(800);
     }
 }
