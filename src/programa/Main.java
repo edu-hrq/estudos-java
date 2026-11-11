@@ -1,16 +1,15 @@
 package programa;
 
+import conceitoGenerics.Caixa;
 import exerciciosPOO.Aluno;
 
 public class Main {
     public static void main(String[] args) {
-        Aluno eduardo = new Aluno(0, "Eduardo", "ADS");
 
-        eduardo.atualizarNotaAV1(10);
-        eduardo.atualizarNotaAV2(8);
-        eduardo.atualizarNotaAV3(9);
-        eduardo.calcularMedia();
+        Caixa<String> caixa = new Caixa<String>(); // o genérico T, que estava na classe Caixa, se torna um tipo String.
+        Caixa<Double> caixa2 = new Caixa<Double>(); // o genérico T nesse caso se torna um Double.
 
-        System.out.printf("O aluno %s do curso %s está aprovado? %b", eduardo.getNome(), eduardo.getCurso(), eduardo.estaAprovado());
+        caixa.setAtributo("nome");
+        caixa2.setAtributo(2.1);
     }
 }
